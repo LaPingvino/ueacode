@@ -1,3 +1,7 @@
+// The check command gives a Unix return code -1 when no code is provided
+// as well as a short message, 0 and no text when successful and 1 to 26
+// plus printing one letter when a code is given but it doesn't check out.
+// With a correct first part of a code, this should be a correct check digit.
 package main
 
 import "github.com/lapingvino/ueacode"
